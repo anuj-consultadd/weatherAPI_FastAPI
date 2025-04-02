@@ -1,0 +1,61 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Virtual environment
+.venv/
+venv/
+ENV/
+
+# Pipenv
+Pipfile
+Pipfile.lock
+
+# Poetry
+poetry.lock
+
+# mypy
+.mypy_cache/
+.dmypy.json
+
+# Pyre
+.pyre/
+
+# FastAPI / Uvicorn logs
+*.log
+logs/
+
+# Database files
+*.sqlite3
+db.sqlite3
+instance/
+
+# Environment variables
+.env
+.env.*
+
+# IDE / Editor files
+.vscode/
+.idea/
+*.iml
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Docker
+.dockerignore
+docker-compose.override.yml
+
+# Cache files
+*.cache
+__pypackages__/
+
+# MacOS / Linux / Windows system files
+.DS_Store
+Thumbs.db
+
+Archive
